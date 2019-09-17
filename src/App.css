@@ -1,3 +1,6 @@
+*, input {
+  max-width: 700px;
+}
 .column-3 {
   width: 75%;
   float: left;
@@ -31,7 +34,7 @@ input.result {
 }
 .floaty-last {
   position: absolute;
-  right: 50px;
+  left: 50px;
   z-index: 99;
   top: 10px;
   color: #aaa
